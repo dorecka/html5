@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   <div class="linki" style="height: 100vh;">
+   <!-- link do zewnętrznego zrodla -->
+     <!--target= "_blank" - otwieranie w nowej karcie -->
+      <a href="https://google.com" target= "_blank">https://google.com</a>
+      
+       
+       <!--do zrodel wewnwtrznych (z "/" w przypadku hostingu) -->
+       <!-- <a href="/contact.html">contact</a> -->
+       
+       <a href="contact.html">contact</a>
+       
+       <!-- kotwica - link do elementu na stronie o podanym id -->
+       <a href="#team">team</a>
+       
+       <!--mailto:adres@mailowy.pl - odsylacz do maila -->
+       <a href="mailto:adres@mailowy.pl">napisz do mnie</a>
+       
+       <!--tel:prefiksNumerTelefonu - odsylacz do numeru telefonu -->
+       <a href="prefiksNumerTelefonu">999888777</a>
+       
+    </div>
+    
+    <div class="tabela">
+        <!-- tabela - kontener dla tabeli -->
+        <table>
+           <!-- glowa tabeli - np. naglowek -->
+             <thead>
+           <!-- rzad -->
+            <tr>
+                <th>Nr</th>
+                <th>Nazwa</th>
+                <th>Cena</th>
+            </tr>
+             </thead>
+             <!-- cialo tabeli -->
+             <tbody>
+                 <tr>
+                     <td>1</td>
+                     <td>owoce</td>
+                     <td>10</td>
+                 </tr>
+                 <tr>
+                     <td>2</td>
+                     <td>warzywa</td>
+                     <td>30</td> 
+                 </tr>
+                 <tr>
+                     <td>3</td>
+                     <td>costam</td>
+                     <td>50</td>
+                </tr>       
+             </tbody>
+        </table>
+    </div>
+    <div class="form">
+        <form action="" method="">
+            <label for="">Imię</label>
+           <input type="text" name="name" id="name">
+           <input type="email" name="email" required>
+           <input type="number" name="number" placeholder="Podaj numer telefonu">
+           <input type="checkbox" name="chechbox">
+           <input type="radio" name="pizza">
+           <input type="radio" name="pizza">
+           <textarea name="msg" id="msg" cols="30" rows="20"></textarea>
+           <select name="" id="">
+               <option value="car">samochod</option>
+               <option value="bicycle">rower</option>
+               <option value="motorcycle">motor</option>
+           </select>
+           <input type="submit" value="wyślij">
+        </form>
+    </div>
+    
+    <section id="team" style="height: 100vh;">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita vel officia laboriosam molestias libero deserunt quis, odit ab nisi. Nihil?</p>
+    </section>     
+</body>
+</html>
